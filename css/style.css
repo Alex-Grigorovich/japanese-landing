@@ -302,7 +302,7 @@ display: -ms-grid;
 display: grid;
 -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
 grid-template-columns: repeat(3, 1fr);
-grid-column-gap:55px;
+column-gap:55px;
 padding: 0 100px;
 }
 .benefits__title{
@@ -738,7 +738,7 @@ color:#fff;
     }
     .benefits__cards{
         padding: 0 15px;
-        grid-column-gap: 35px;
+        column-gap: 35px;
     }
     .benefits__title{
         padding: 45px 15px;
